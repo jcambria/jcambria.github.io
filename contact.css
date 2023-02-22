@@ -85,7 +85,7 @@ body {
   }
   
   .list-item {
-    text-align: center;
+    text-align: left;
     line-height: 4;
     color: #aaa;
     text-shadow:
@@ -104,7 +104,7 @@ body {
   
   
   .contact-text {
-    text-align: center;
+    text-align: left;
     font: 300 18px 'Lato', sans-serif;
     letter-spacing: 1.9px;
     color: #bbb;
@@ -121,7 +121,7 @@ body {
   }
   
   .gmail {
-    margin-left: 60px;
+    margin-left: 50px;
     letter-spacing: 3px;
 
     
