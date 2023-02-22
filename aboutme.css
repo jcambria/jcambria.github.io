@@ -102,19 +102,13 @@ h1{
 
 }
 h2{
-    color:rgb(224, 224, 224);
+    color:rgb(236, 231, 231);
     font-size: 170%;
     font-style: italic;
+     text-shadow:
+      0 0 7px white;
+      /* 0 0 10px whitesmoke; */
     
-    text-shadow:
-      /* 0 0 7px white; */
-    
-      /* 0 0 21px #ffffff08, */
-      /* 0 0 42px rgb(24, 68, 6), */
-      /* 0 0 82px #0fa, */
-      /* 0 0 92px #0fa, */
-      /* 0 0 102px #0fa, */
-      /* 0 0 10px #0fa; */
      
     
 }
@@ -220,7 +214,7 @@ h3{
     outline: none;
   }
   .dropbtn{
-    margin: -8px;
+    /* margin: -px; */
     font-size: 20px;
     color: rgb(167, 239, 163);
     background-color: rgb(40, 38, 38);
