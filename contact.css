@@ -273,8 +273,8 @@ body {
   }
 
   .dropbtn{
-    margin: 5px;
-    font-size: 15px;
+    margin: 1px;
+    font-size: 20px;
     color: rgb(222, 239, 163);
     background-color: rgb(40, 38, 38);
     text-shadow:
