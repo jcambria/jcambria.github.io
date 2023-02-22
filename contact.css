@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    padding-bottom: 100px;
+  }
+  
+  #contact {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 60px 'Oswald', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-shadow:
+      0 0 7px #b7d814f2,
+      0 0 10px #c5d81f,
+      0 0 21px #fcffa4f0,
+      0 0 42px rgb(208, 243, 128),
+      0 0 82px rgb(155, 183, 28),
+      0 0 92px rgb(192, 228, 14),
+      0 0 102px rgb(255, 255, 0),
+      0 0 151px rgb(247, 242, 0)
+
+
+
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+  }
+  
+  /* Left contact page */
+  .form-horizontal {
+    /*float: left;*/
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
+  }
+  
+  .form-control, 
+  textarea {
+    max-width: 400px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  hr {
+    display: block;
+    width: 136%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  
+ 
+  /* Begin Right Contact Page */
+  /* .direct-contact-container {
+    max-width: 400px;
+  } */
+  
+  /* Location, Phone, Email Section */
+  .contact-list {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    margin-left: 200px;
+    padding-right: 20px;
+  }
+  
+  .list-item {
+    text-align: center;
+    line-height: 4;
+    color: #aaa;
+    text-shadow:
+      0 0 7px #f8f8f5f2,
+      0 0 10px #c5d81f,
+      0 0 21px #fcffa4f0,
+      0 0 42px rgb(208, 243, 128),
+      0 0 82px rgb(155, 183, 28),
+      0 0 92px rgb(192, 228, 14),
+      0 0 102px rgb(255, 255, 0),
+      0 0 151px rgb(247, 242, 0)
+
+
+
+  }
+  
+  
+  .contact-text {
+    text-align: center;
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+  }
+  
+  .place {
+    margin-left: 62px;
+    letter-spacing: 3px;
+  }
+  
+  .phone {
+    margin-left: 56px;
+    letter-spacing: 3px;
+  }
+  
+  .gmail {
+    margin-left: 60px;
+    letter-spacing: 3px;
+
+    
+  }
+  
+  .contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+  .contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  @keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  
+  
+  /* Social Media Icons */
+  .social-media-list {
+    
+    -webkit-animation: flickerAnimation 2s infinite;
+    -moz-animation: flickerAnimation 2s infinite;
+    -o-animation: flickerAnimation 2s infinite;
+     animation: flickerAnimation 2s infinite;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-left: 120px;
+    /* margin: 0 auto; */
+    padding: 0;
+    line-height: 4;
+    text-shadow:
+      0 0 7px #f8f8f5f2,
+      0 0 10px #c5d81f,
+      0 0 21px #fcffa4f0,
+      0 0 42px rgb(208, 243, 128),
+      0 0 82px rgb(155, 183, 28),
+      0 0 92px rgb(192, 228, 14),
+      0 0 102px rgb(255, 255, 0),
+      0 0 151px rgb(247, 242, 0)
+
+  }
+  
+  .social-media-list li a {
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
+  
+  
+  /* .copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 3px;
+    text-align: center;
+  } */
+  
+  hr {
+    border-color: rgba(239, 234, 234, 0.6);
+    text-shadow:
+      0 0 7px #f8f8f5f2,
+      0 0 10px #c5d81f,
+      0 0 21px #fcffa4f0,
+      0 0 42px rgb(208, 243, 128),
+      0 0 82px rgb(155, 183, 28),
+      0 0 92px rgb(192, 228, 14),
+      0 0 102px rgb(255, 255, 0),
+      0 0 151px rgb(247, 242, 0)
+
+  }
+  
+  
+  .btn {
+    float: right;
+   background-color: #050505;
+   position: relative;
+    color: beige;
+    text-shadow:
+      0 0 7px #d5bbbb63,
+      0 0 10px #ffffff,
+      0 0 21px #ffffff08,
+      0 0 2px rgb(24, 68, 6),
+         0 0 2px rgb(189, 223, 78),
+      0 0 92px rgb(235, 255, 16),
+      0 0 102px rgb(238, 255, 0),
+      0 0 15px rgb(251, 255, 0);
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    right: 0;
+    display: inline-block;
+    float: right;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    right: 0;
+    position: absolute;
+    background-color:rgb(2, 2, 2);
+    min-width: 160px;
+    z-index: 1;
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    text-shadow:
+      0 0 7px #e9e60cf7,
+      0 0 10px #e8f232,
+      0 0 21px #fff200,
+      0 0 42px rgb(243, 255, 13),
+         0 0 82px rgb(238, 255, 0),
+      0 0 92px rgb(255, 242, 0),
+      0 0 102px rgb(246, 255, 0),
+      0 0 15px rgb(217, 255, 0);
+    color: rgb(249, 249, 249);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+
+  .dropbtn{
+    margin: 5px;
+    font-size: 15px;
+    color: rgb(222, 239, 163);
+    background-color: rgb(40, 38, 38);
+    text-shadow:
+      0 0 7px #d5bbbb63,
+      0 0 10px #ffffff,
+      0 0 15px yellow;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #31352f}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  
+  }
+
+ 
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .btn:hover, .dropdown:hover .btn  {
+    text-shadow:
+      0 0 7px #d3d5bb63,
+      0 0 10px #e5bc28,
+      0 0 21px #e3ff0df1,
+      0 0 42px rgb(255, 234, 9),
+         0 0 82px rgb(246, 254, 97),
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 15px #0fa;
+    
+  }
