@@ -16,7 +16,7 @@ function getComputerChoice() {
     } else if (userChoice === 'scissors' && computerChoice === 'rock') {
       return "I win!";
     } else {
-      return "You win! Best two out if three?";
+      return "You win! Best two out of three?";
     }
   }
   
