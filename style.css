@@ -275,15 +275,17 @@
   #choices {
     margin-top: 20px;
   }
+
   button {
+    color: #333;
+    background-color: transparent;
     box-shadow: 0 0 2px #F5E9CF,
                 0 0 4px #F5E9CF,
                 0 0 6px gray;
 
-    position: relative;
+  position: relative;
   border: none;
-  font-size: 28px;
-  color: #FFFFFF;
+  font-size: 35px;
   padding: 20px;
   width: 200px;
   text-align: center;
