@@ -1,0 +1,269 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /* Global styles */
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #F8F5E4;
+    color: #333;
+  }
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+  .box {
+    float: right;
+    background: #F8F5E4;
+    border-radius: 6;
+    transition-property: background, border-radius;
+    transition-duration: 3s, 2s;
+    transition-timing-function: ease-in-out;
+    height:100px;
+    width: 205px;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .highlight {
+    font-weight: 900;
+  }
+  
+  .box:hover {
+    background: #539165;
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  h1{
+    background-image: linear-gradient(
+       -225deg,
+       #F7C04A
+   0%,
+   #3F497F 29%,
+   #539165 67%,
+   #7DB9B6 100%
+     );
+     background-size: auto auto;
+     background-clip: border-box;
+     background-size: 200% auto;
+     /* color: #fff; */
+     background-clip: text;
+     /* text-fill-color: transparent; */
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: textclip 2s linear infinite;
+     /* display: inline-block; */
+         /* font-size: 190px; */
+  
+      /* font-style: italic; */
+      /* color: #40513B; */
+      /* padding: 5% 5%; */
+      text-align: center;
+      font-size: 90px;
+  }
+  #title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  a {
+    color: #539165;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-shadow: 0 0 2px #F5E9CF;
+                 /* 0 0 6px #F5E9CF; */
+  }
+  
+  
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .pic{
+    height: 310px;
+    width: 310px;
+    border-radius: 50%;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #F5E9CF;
+    /* box-shadow: 0 1px 1px rgba(0,0,0,0.1); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  
+  nav {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* color: #3F497F; */
+    background-color: #3F497F;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+    
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav a:hover {
+    background-color: #3F497F;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    background-image: url(https://images.unsplash.com/photo-1556761175-2d3f11c84eb3);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #hero h1 {
+    
+    color: #F5E9CF;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+  }
+  
+  #hero p {
+    font-size: 2rem;
+    color: #F5E9CF;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 2px #3F497F ;
+  }
+  
+  
+  a{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    background-color: #539165;;
+    color: #F5E9CF;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  
+  a:hover{
+    background-color: #3F497F ;
+  
+  }
+  
+  /* #hero button:hover {
+    background-color: #444444fe;
+  } */
+  
+  /* About section styles */
+  #about {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #about {
+    background-image: linear-gradient(
+       -225deg,
+       #F7C04A
+   0%,
+   #3F497F 29%,
+   #539165 67%,
+   #7DB9B6 100%
+     
+    );
+    
+     color: #ffffff;
+     padding: 5% 5%;
+     text-align: center;
+     font-size: 90px;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  
+  #portfoilo,  h2 {
+    background-image: linear-gradient(
+       -225deg,
+       #F7C04A
+   0%,
+   #3F497F 29%,
+   #539165 67%,
+   #7DB9B6 100%
+     );
+  
+  
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+   
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+     color: #40513B;
+     padding: 5% 5%;
+     text-align: center;
+     font-size: 90px;
+  }
+  
+  #portfoilo, p {
+    text-align: center;
+    font-size: 2rem;
+    color: #F5E9CF;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 2px #3F497F 
+  }
+  
+  
+  
+  #about p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  
+  
+  #about img {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    animation: pulse 2s infinite;
+  }
+  
+  
