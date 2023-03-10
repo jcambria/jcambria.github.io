@@ -8,7 +8,7 @@ function getComputerChoice() {
   // Function to determine the winner
   function determineWinner(userChoice, computerChoice) {
     if (userChoice === computerChoice) {
-      return "It's a tie, great minds think alike!";
+      return "Ah it's a tie, great minds think alike!";
     } else if (userChoice === 'rock' && computerChoice === 'paper') {
       return "I win!";
     } else if (userChoice === 'paper' && computerChoice === 'scissors') {
